@@ -1,4 +1,4 @@
 # flyingCircusScripts
 python scripts
 
-scripts made during tlg class
+scripts for tlg intro python class and scripts from black hat python
