@@ -5,7 +5,7 @@
 
 """
 
-# id : ["text", "answerYesOrDefaultID", "answerNoID", "asksForInputBoolean"]
+# id : ["text", "answerYesOrDefaultID", "answerNoID", "noInputBoolean"]
 flowChartData = {
     "0000" : ["Does the damn thing work? [y/n]\n", "0001", "0010", False],
     "0001" : ["Don't f*ck with it", None, None, True],
