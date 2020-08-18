@@ -104,6 +104,8 @@ while True:
    ## If a player enters a room with a monster
   if 'item' in rooms[currentRoom] and 'monster' in rooms[currentRoom]['item'] and 'executioners axe' in inventory:
     print("A monster pops out behind a cubbard, you pull out your executioner's axe and chop off its head!!")
+    print("You then throw the monsters head in a pot of boiling water, and make a tasty bowl of monster brain stew")
+    inventory += ["monster brain stew"]
     del rooms[currentRoom]['item']
   elif 'item' in rooms[currentRoom] and 'monster' in rooms[currentRoom]['item']:
     print('A monster has got you... GAME OVER!')
