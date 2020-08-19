@@ -10,9 +10,12 @@ import csv
 warnings.filterwarnings(action="ignore", module=".*paramiko.*")
 
 def readInUsers():
+    users = []
     with open('users.csv', mode='r') as file:
         csvFile = csv.reader(file)
-    return csvFile
+        for line in csvFile:
+            users.append(line)
+    return users
 
 def main():
     """Our runtime code that calls other functions"""
